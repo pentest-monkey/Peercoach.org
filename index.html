@@ -186,10 +186,22 @@
                     <p>Spaces are strictly limited to ensure dedicated, high-quality focus for every individual. Please fill out the form below to see if we are a good fit for private mentorship.</p>
                     
                   <form action="https://api.web3forms.com/submit" method="POST">
+                      
                   <input type="hidden" name="access_key" value="2817efea-38ce-49a5-8655-b2db0d7ac60c">
-                  <input type="text" name="name" required>
-                  <input type="email" name="email" required>
-                  <textarea name="message" required></textarea>
+<div>
+        <label for="name" style="display: block; margin-bottom: 5px;">Your Name:</label>
+        <input type="text" id="name" name="name" required style="width: 100%; padding: 8px;">
+    </div>
+
+    <div>
+        <label for="email" style="display: block; margin-bottom: 5px;">Email Address:</label>
+        <input type="email" id="email" name="email" required style="width: 100%; padding: 8px;">
+    </div>
+
+    <div>
+        <label for="message" style="display: block; margin-bottom: 5px;">Message:</label>
+        <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 8px;"></textarea>
+    </div>
                   <button type="submit">Submit</button>
 
                         </div>
